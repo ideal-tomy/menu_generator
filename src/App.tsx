@@ -8,11 +8,11 @@ function App() {
   const { suggestions, isLoading } = useMenuStore();
 
   return (
-    <div className="min-h-screen bg-primary-light/20 py-8 px-4 sm:px-6 lg:px-8">
-      <div className="max-w-7xl mx-auto">
-        <header className="text-center mb-12 bg-white p-8 rounded-lg shadow-md border-t-4 border-primary">
-          <h1 className="text-4xl font-bold text-primary bg-yellow-100 p-2">季節のメニュー提案</h1>
-          <p className="mt-4 text-lg text-gray-600">
+    <div className="min-h-screen bg-primary-light/20 py-12 px-6 sm:px-10 lg:px-12">
+      <div className="max-w-6xl mx-auto">
+        <header className="text-center mb-16 bg-white p-10 rounded-xl shadow-lg border-t-8 border-primary">
+          <h1 className="text-5xl font-bold text-primary p-3">季節のメニュー提案</h1>
+          <p className="mt-6 text-xl text-gray-700">
             季節やコンセプトに合わせた新しいメニューのアイデアを提案します
           </p>
         </header>
