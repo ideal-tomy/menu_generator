@@ -8,8 +8,8 @@ function App() {
   const { suggestions, isLoading } = useMenuStore();
 
   return (
-    <div className="min-h-screen bg-primary-light/20 py-12 px-6 sm:px-10 lg:px-12">
-      <div className="max-w-6xl mx-auto">
+    <div className="min-h-screen bg-orange-50 py-16 px-6 sm:px-12 lg:px-16 flex justify-center items-start">
+      <div className="w-full max-w-5xl">
         <header className="text-center mb-16 bg-white p-10 rounded-xl shadow-lg border-t-8 border-primary">
           <h1 className="text-5xl font-bold text-primary p-3">季節のメニュー提案</h1>
           <p className="mt-6 text-xl text-gray-700">

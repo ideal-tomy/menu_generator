@@ -26,11 +26,13 @@ const MenuForm = () => {
             <SelectTrigger id="season" className="w-full h-14 text-lg bg-white border-2 border-gray-200 focus:border-primary focus:ring-2 focus:ring-primary/20">
               <SelectValue placeholder="季節を選択" />
             </SelectTrigger>
-            <SelectContent className="bg-white border-2 border-gray-200 shadow-xl z-50">
-              <SelectItem value="spring" className="hover:bg-spring-light py-3 px-5 text-lg cursor-pointer">春</SelectItem>
-              <SelectItem value="summer" className="hover:bg-summer-light py-3 px-5 text-lg cursor-pointer">夏</SelectItem>
-              <SelectItem value="autumn" className="hover:bg-autumn-light py-3 px-5 text-lg cursor-pointer">秋</SelectItem>
-              <SelectItem value="winter" className="hover:bg-winter-light py-3 px-5 text-lg cursor-pointer">冬</SelectItem>
+            <SelectContent position="popper" className="bg-white border-2 border-gray-200 shadow-xl z-[100] w-full min-w-[250px]">
+              <div className="p-1">
+                <SelectItem value="spring" className="hover:bg-spring-light py-3 px-5 text-lg cursor-pointer rounded-md my-1">春</SelectItem>
+                <SelectItem value="summer" className="hover:bg-summer-light py-3 px-5 text-lg cursor-pointer rounded-md my-1">夏</SelectItem>
+                <SelectItem value="autumn" className="hover:bg-autumn-light py-3 px-5 text-lg cursor-pointer rounded-md my-1">秋</SelectItem>
+                <SelectItem value="winter" className="hover:bg-winter-light py-3 px-5 text-lg cursor-pointer rounded-md my-1">冬</SelectItem>
+              </div>
             </SelectContent>
           </Select>
         </div>
